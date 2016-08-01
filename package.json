@@ -1,0 +1,15 @@
+{
+  "name": "four-semesters-of-cs",
+  "version": "1.0.0",
+  "description": "Practicing exercises from ForwardJS workshop taught by Brian Holt and Mars Jullian.",
+  "main": "",
+  "author": "Angelo Cisneros",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine-node spec --autotest --watch sort/"
+  }
+}
